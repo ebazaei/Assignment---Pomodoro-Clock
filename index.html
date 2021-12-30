@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title> Assignment---Pomodoro-Clock</title>
+</head>
+<body>
+    <h1> Assignment---Pomodoro-Clock</h1>
+    <h2>This exercise has been done according to the training provided at the following address. </h2>
+    <h2>Video tutorial link: <a href="https://www.youtube.com/watch?v=vAEG6OVCass&t=11s"> Learn-webdev </a></h2>
+    
+     
+    <div id="container">
+        <p id="work" class="label">work</p><p id="break" class="label">break</p><p id="cycles" class="label">cycles</p>
+        
+        <!-- work timer -->
+        <div id="work-timer" class="timer">
+            <p id="w_minuts">25</p><p id="semicolon">:</p><p id="w_seconds">00</p>
+        </div>       
+        
+        <p id="counter" class="timer"> 0 </p>
+
+        <!-- break timer -->
+        <div id="break-timer" class="timer">
+            <p id="b_minuts">5</p><p id="semicolon">:</p><p id="b_seconds">00</p>
+        </div>
+
+
+        <button id="start" class="btn">Start</button>
+        <button id="stop" class="btn">Pause</button>
+        <button id="reset" class="btn">Reset</button>
+
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
